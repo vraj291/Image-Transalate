@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>  
+<head>  
+    <title>Upload Files</title>  
+</head>  
+<body>  
+	<h2>Upload an image file</h2>
+    <form action = "/backend" method = "post" enctype="multipart/form-data">  
+    	<label for="img">Select Image</label><br>
+        <input type="file" name="file" accept="image/*"/><br>  
+        <input type = "submit" value="Upload">  
+    </form>  
+</body>  
+</html>  
